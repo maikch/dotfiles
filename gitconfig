@@ -1,0 +1,17 @@
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	fp = fetch --prune --all
+	graph = log --graph --decorate --oneline --all
+	st = status
+[color]
+	ui = auto
+[core]
+	editor = vim
+[push]
+	default = matching
+[include]
+	path = ~/.gitconfig.local
+
+# vim: ft=gitconfig
