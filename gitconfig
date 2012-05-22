@@ -4,7 +4,7 @@
 	co = checkout
 	fp = fetch --prune --all
 	graph = log --graph --decorate --oneline --all
-	st = status
+	st = status -sb
 [color]
 	ui = auto
 [core]
