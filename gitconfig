@@ -13,7 +13,5 @@
 	default = matching
 [rerere]
 	enabled = 1
-[include]
-	path = .gitconfig.local
 
 # vim: ft=gitconfig
