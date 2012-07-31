@@ -20,4 +20,4 @@ xterm*faceName: "Bitstream Vera"
 xterm*faceSize: 9
 xterm*selectToClipboard: true
 
-# vim: ft=Xdefaults
+! vim: ft=Xdefaults
