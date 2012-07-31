@@ -5,6 +5,7 @@
 	fp = fetch --prune --all
 	graph = log --graph --decorate --oneline --all
 	st = status -u -sb
+	save = stash -u
 [color]
 	ui = auto
 [core]
@@ -12,6 +13,8 @@
 [push]
 	default = matching
 [rerere]
-	enabled = 1
+	enabled = true
+[rebase]
+	autosquash = true
 
 # vim: ft=gitconfig
