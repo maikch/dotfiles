@@ -16,5 +16,7 @@
 	enabled = true
 [rebase]
 	autosquash = true
+[branch]
+  autosetuprebase = always
 
 # vim: ft=gitconfig
