@@ -14,9 +14,9 @@
 	default = matching
 [rerere]
 	enabled = true
-[rebase]
-	autosquash = true
-[branch]
-  autosetuprebase = always
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
 
 # vim: ft=gitconfig
