@@ -19,5 +19,6 @@ xterm*color15: #ffffff
 xterm*faceName: "Bitstream Vera"
 xterm*faceSize: 9
 xterm*selectToClipboard: true
+xterm*charClass: 33:48,37:48,45-47:48,64:48
 
 ! vim: ft=Xdefaults
