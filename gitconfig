@@ -15,7 +15,7 @@
 [rerere]
 	enabled = true
 [diff]
-	tool = vimdiff
+	tool = gvimdiff
 [difftool]
 	prompt = false
 
