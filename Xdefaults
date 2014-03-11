@@ -16,8 +16,8 @@ xterm*color12: #4186be
 xterm*color13: #cf9ebe
 xterm*color14: #71bebe
 xterm*color15: #ffffff
-xterm*faceName: "Bitstream Vera"
-xterm*faceSize: 9
+xterm*faceName: DejaVu Sans Mono for Powerline
+xterm*faceSize: 8
 xterm*selectToClipboard: true
 xterm*charClass: 33:48,37:48,45-47:48,64:48
 
