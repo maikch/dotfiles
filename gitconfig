@@ -1,8 +1,12 @@
 [alias]
+	aa = add --all
 	br = branch
 	ci = commit
 	co = checkout
+	dd = diff
+	dc = diff --staged
 	fp = fetch --prune --all
+	gr = !git --no-pager log --graph --decorate --oneline --all -70
 	graph = log --graph --decorate --oneline --all
 	st = status -u -sb
 	save = stash -u
