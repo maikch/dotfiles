@@ -18,9 +18,5 @@
 	default = matching
 [rerere]
 	enabled = true
-[diff]
-	tool = gvimdiff
-[difftool]
-	prompt = false
 
 # vim: ft=gitconfig
