@@ -28,4 +28,8 @@ alias ll="ls -l"
 alias la="ls -la"
 alias tmux="tmux -2"
 
-[ -e $HOME/.zshrc.$USER ] && source $HOME/.zshrc.$USER
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+[ -f $HOME/.zshrc.$USER ] && source $HOME/.zshrc.$USER
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
