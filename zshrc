@@ -14,7 +14,7 @@ HIST_IGNORE_SPACE="true"
 # COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-plugins=(encode64 gem git github heroku mvn rake rvm vagrant vi-mode)
+plugins=(brew brew-cask bundler encode64 gem git heroku rails rake rbenv vagrant vi-mode vundle)
 
 source $ZSH/oh-my-zsh.sh
 
