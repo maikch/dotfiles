@@ -8,6 +8,7 @@
 	fp = fetch --prune --all
 	gr = !git --no-pager log --graph --decorate --oneline --all -25
 	graph = log --graph --decorate --oneline --all
+	ri = rebase --interactive --autosquash
 	st = status -u -sb
 	save = stash -u
 [color]
