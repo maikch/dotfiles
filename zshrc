@@ -27,6 +27,9 @@ export EDITOR=/usr/bin/vim
 alias ll="ls -l"
 alias la="ls -la"
 alias tmux="tmux -2"
+alias ci="./script/cibuild"
+alias t="./script/tests"
+alias g="git"
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
